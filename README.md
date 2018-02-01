@@ -1,6 +1,6 @@
 # urbanDictionaryClient
 
-This purpose of this project is to for enable users search various terms in Urban Dictionary
+This purpose of this project is to enable users to search various terms in Urban Dictionary
 
 # Technologies used
 1. CSS: 1) SASS preprocessor 2)BEM naming convention for CSS classes
