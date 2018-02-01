@@ -1,0 +1,35 @@
+.header{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background: black;
+
+  &__nav{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+
+    &-links{
+
+      font-size: 3rem;
+      color: white;
+    }
+    &-logo{
+      margin-right: auto;
+      font-weight: bolder;
+    }
+    &-input{
+      width:50rem;
+      box-sizing: border-box;
+      border: 2px solid #ccc;
+      font-size: 16px;
+      background-color: white;
+      background-image: url('https://www.w3schools.com/howto/searchicon.png');
+      background-position: 10px 10px;
+      background-repeat: no-repeat;
+      padding: 12px 20px 12px 40px;
+      border-radius: 0;
+    }
+  }
+}
+

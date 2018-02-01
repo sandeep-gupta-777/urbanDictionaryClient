@@ -1,0 +1,14 @@
+{
+  "name": "urbandictionary",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "node-sass ./sass/main.scss ./css/style1.css -w"
+  },
+  "author": "sandeep",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.7.2"
+  }
+}

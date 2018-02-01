@@ -1,0 +1,44 @@
+/*html{*/
+    /*font-size: 62.5%; !*this is because default browser font size if 16px. 62.5% of 16px = 10px*!*/
+/*}*/
+/*body{*/
+    /*box-sizing: border-box;*/
+    /*!*font-size: inherit;*!*/
+/*}*/
+
+
+.header{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background: black;
+}
+.header__nav{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+
+}
+.header__nav-links{
+
+    font-size: 3rem;
+    color: white;
+}
+.header__nav-logo{
+    margin-right: auto;
+}
+.header__nav-input{
+    width:50rem;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('https://www.w3schools.com/howto/searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    border-radius: 0px;
+}
+.border1{
+    border: 2px solid red;
+}

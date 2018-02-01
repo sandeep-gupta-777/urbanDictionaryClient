@@ -1,0 +1,9 @@
+html{
+  /*this is the definition of 1 rem (=10px by default)*/
+  font-size: 62.5%; /*this is because default browser font size if 16px. 62.5% of 16px = 10px*/
+}
+body{
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, 0.76);;
+
+}

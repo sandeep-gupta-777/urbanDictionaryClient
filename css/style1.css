@@ -1,0 +1,120 @@
+/*this file will have no css code, rather it will just have mixins, funtions etc*/
+/*this file will have no css code, rather it will just have mixins, funtions etc*/
+/*this file will have no css code, rather it will just have mixins, funtions etc*/
+/*this file will have no css code, rather just variables*/
+html {
+  /*this is the definition of 1 rem (=10px by default)*/
+  font-size: 62.5%;
+  /*this is because default browser font size if 16px. 62.5% of 16px = 10px*/ }
+
+body {
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, 0.76); }
+
+.border1 {
+  border: 1px solid red; }
+
+.badge {
+  background: black;
+  border-radius: 100px;
+  color: white;
+  display: inline;
+  padding: 2px 7px;
+  cursor: pointer; }
+
+.header {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background: black; }
+  .header__nav {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    margin: auto; }
+    .header__nav-links {
+      font-size: 3rem;
+      color: white; }
+    .header__nav-logo {
+      margin-right: auto;
+      font-weight: bolder; }
+    .header__nav-input {
+      width: 50rem;
+      box-sizing: border-box;
+      border: 2px solid #ccc;
+      font-size: 16px;
+      background-color: white;
+      background-image: url("https://www.w3schools.com/howto/searchicon.png");
+      background-position: 10px 10px;
+      background-repeat: no-repeat;
+      padding: 12px 20px 12px 40px;
+      border-radius: 0; }
+
+.results-descriptions {
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+  .results-descriptions__placeholder-nosearch {
+    font-size: 5rem;
+    color: white; }
+  .results-descriptions .row {
+    margin: 10px;
+    background: white;
+    width: 60%;
+    padding: 30px; }
+    .results-descriptions .row-heading h1 {
+      font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      font-size: 3rem;
+      margin: 0;
+      padding: 0;
+      text-decoration: none; }
+    .results-descriptions .row-meaning p {
+      font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      font-size: 15px; }
+    .results-descriptions .row-example {
+      margin: 10px;
+      font-size: 14px;
+      font-style: italic; }
+    .results-descriptions .row__metadata {
+      display: flex;
+      align-items: center; }
+      .results-descriptions .row__metadata-tags ul {
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+        margin: 0;
+        padding: 0; }
+        .results-descriptions .row__metadata-tags ul li {
+          display: inline;
+          font-size: 12px;
+          font-weight: bold;
+          margin: 1px; }
+      .results-descriptions .row__metadata-author {
+        padding: 5px;
+        margin-left: auto;
+        font-size: 13px;
+        font-weight: bold; }
+        .results-descriptions .row__metadata-author .author-markup {
+          font-weight: normal; }
+      .results-descriptions .row__metadata-votes {
+        margin-top: 5px;
+        font-size: 16px; }
+
+#results-tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem; }
+  #results-tags .row ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0; }
+    #results-tags .row ul li {
+      display: inline;
+      font-size: 1.7rem;
+      font-weight: bold;
+      margin: 1px; }
