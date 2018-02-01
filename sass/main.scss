@@ -1,21 +1,12 @@
-@import "abstract/abstract";
-@import "abstract/functions";
-@import "abstract/mixins";
 @import "abstract/variable";
 
 @import "base/base";
-@import "base/animations";
-@import "base/typography";
 @import "base/utilities";
 
-@import "pages/home";
-
 @import "layout/header";
-@import "layout/main";
 @import "layout/results";
-@import "layout/tags";;
+@import "layout/tags";
 
-@import "components/button";
 
 
 
